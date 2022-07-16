@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adpageimg"
+    tools:context=".AdminPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi Admin!!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:id="@+id/text31">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text31"
+        android:layout_marginTop="30dp"
+        android:text="Add voters"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFA000"
+        android:id="@+id/addvoter">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addvoter"
+        android:layout_marginTop="30dp"
+        android:text="View Result"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#00B0FF"
+        android:id="@+id/result">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_marginTop="30dp"
+        android:text="View voters List"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#C6FF00"
+        android:id="@+id/voterlist">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/voterlist"
+        android:layout_marginTop="30dp"
+        android:text="HOME"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#D81B60"
+        android:id="@+id/ahome">
+    </Button>
+</RelativeLayout>

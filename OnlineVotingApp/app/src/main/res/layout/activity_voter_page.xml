@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank1"
+    tools:context=".VoterPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electoral College Vote"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#880E4F"
+        android:fontFamily="sans-serif"
+        android:id="@+id/text21">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For the post of Vice President of CSE"
+        android:layout_below="@id/text21"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#DD2C00"
+        android:id="@+id/text22">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/text22">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_fish"
+            android:id="@+id/icon1">
+        </ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Vote"
+            android:textColor="@color/black"
+            android:backgroundTint="#B9FFD600"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/first">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_butterfly"
+            android:id="@+id/icon2">
+        </ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Vote"
+            android:textColor="@color/black"
+            android:backgroundTint="#B9FFD600"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/second">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>

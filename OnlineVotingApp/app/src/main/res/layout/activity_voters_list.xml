@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listimg"
+    tools:context=".VotersList">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOTERS LIST"
+        android:textColor="#D50000"
+        android:textSize="30sp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:id="@+id/textv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textv"
+        android:id="@+id/voters"></ListView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/voters"
+        android:text="BACK"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F57F17"
+        android:id="@+id/back"></Button>
+</RelativeLayout>

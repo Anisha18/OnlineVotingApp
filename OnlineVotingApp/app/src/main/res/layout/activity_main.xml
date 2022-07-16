@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/vote"
+        android:id="@+id/img1"></ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/img1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/yellow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Voting App"
+            android:fontFamily="cursive"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:id="@+id/textv1">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textv1"
+            android:text="Admin"
+            android:backgroundTint="#00897B"
+            android:textColor="@color/black"
+            android:id="@+id/admin">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voter"
+            android:layout_below="@id/admin"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#00897B"
+            android:textColor="@color/black"
+            android:id="@+id/voter">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Vote is your Voice!!"
+            android:layout_below="@id/voter"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:id="@+id/textv2">
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>
